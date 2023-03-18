@@ -1,0 +1,31 @@
+.menu-icon {
+    cursor: pointer;
+  }
+  
+  .fa-bars {
+    font-size: 30px;
+    color: #333;
+  }
+  .menu {
+    display: none;
+  }
+  
+  .menu.show {
+    display: block;
+  }
+
+  .menu li {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+  }
+  .show .menu {
+    display: block; /* show the menu when the button is clicked */
+  }
+  
+  .menu li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  

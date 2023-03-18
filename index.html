@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> This is page title</title>
+        <title> Recipe Website</title>
+        <link rel="stylesheet" href="./Styles/index.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+      <!-- Nav Start -->
+      <nav class="navbar">
+        <div class="nav-center">
+            <!-- header -->
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="./images/logo.png" alt="logo" height="5%" width="15%">
+                </a>
+                <button type="button" class="btn nav-btn">
+                    <div class="menu-icon">
+                        <i class="fa fa-bars"></i>
+                      </div>
+                      <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                </button>
+            </div>
+            <!-- Links -->
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"> HOME</a>
+                <a href="index.html" class="nav-link"> ABOUT</a>
+                <a href="index.html" class="nav-link"> TAGS</a>
+                <a href="index.html" class="nav-link"> RECIPES</a>
 
-        <h1 title="first header tooltip"> Heading 1</h1>
-        <h2> Heading 2</h2>
-        <h3> Heading 3</h3>
-        <h4> Heading 4</h4>
-        <h5> Heading 5</h5>
-        <h6> Heading 6</h6>
-        <p style="color: rgb(165, 67, 67);">This is my first paragraph</p>
-        <a href="https://unsplash.com/"> This "link" will ridirect you to unsplash</a>
-        <br>
-        <img src="images/image1.jpg" alt="image">
-        <p style="font-size: 20px;">This is another paragraph with 20px font</p>
+            </div>
+        </div>
+      </nav>
+      <!-- Nav End -->
+      <script type="text/javascript" src="./js/hambergerMenu.js"></script>
 
-        <pre style="font-size: 15px;">
-            My Bonnie lies over the ocean.
-            <mark> Bonnie lies over the sea. </mark>
-           <del> My Bonnie lies over the ocean. </del>
-           <em> Oh , bring </em>back my <ins> our</ins> Bonnie to me.
-          </pre>
-      
+
+
     </body>
 </html>
